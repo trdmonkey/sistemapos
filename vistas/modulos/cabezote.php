@@ -1,7 +1,7 @@
 <header class="main-header">
 
     <!-- =========================== LOGOTIPO ================================= -->
-    <a href="#" class="logo">
+    <a href="inicio" class="logo">
         <!-- LOGO MINI -->
         <span class="logo-mini">
             <img src="vistas/img/plantilla/Logo6.png" alt="" class="img-responsive" style="padding: 0px;">

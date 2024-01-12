@@ -10,7 +10,7 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-  
+
   <!-- =====================================================================================================
   ---------------------------------------- PLUGINS DE CSS --------------------------------------------------
   ========================================================================================================== -->
@@ -58,7 +58,7 @@
 
 </head>
 
-  <!-- =====================================================================================================
+<!-- =====================================================================================================
   ---------------------------------- CUERPO - DOCUMENTO -------------------------------------------------
   ========================================================================================================== -->
 
@@ -66,7 +66,7 @@
   <!-- Site wrapper -->
   <div class="wrapper">
 
-  <?php 
+    <?php
 
     /* 
       * CABEZOTE 
@@ -91,22 +91,54 @@
        $_GET["ruta"] == "ventas" ||
        $_GET["ruta"] == "crear-venta" ||
        $_GET["ruta"] == "reportes"){
+
         include "modulos/".$_GET["ruta"].".php";
+
+       } else {
+
+        include "modulos/404.php";
+
        }
+    } else {
+
+      include "modulos/inicio.php";
+
     }
+
+
+
+
+
+    
+    /* if (isset($_GET["ruta"]) && !empty($_GET["ruta"])) {
+      if (
+        $_GET["ruta"] == "inicio" ||
+        $_GET["ruta"] == "usuarios" ||
+        $_GET["ruta"] == "categorias" ||
+        $_GET["ruta"] == "productos" ||
+        $_GET["ruta"] == "clientes" ||
+        $_GET["ruta"] == "ventas" ||
+        $_GET["ruta"] == "crear-venta" ||
+        $_GET["ruta"] == "reportes"
+      ) {
+        include "modulos/" . $_GET["ruta"] . ".php";
+      }
+    } else {
+      include "modulos/inicio.php";
+    } */
 
     /* 
       * FOOTER 
     */
     include "modulos/footer.php";
 
-  ?>
+    ?>
 
   </div>
   <!-- ./wrapper -->
 
 
-    <script src="vistas/js/plantilla.js"></script>
+  <script src="vistas/js/plantilla.js"></script>
 
 </body>
 
