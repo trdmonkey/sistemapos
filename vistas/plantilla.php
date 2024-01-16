@@ -42,6 +42,9 @@ session_start();
   <link rel="stylesheet" href="vistas/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
   <link rel="stylesheet" href="vistas/bower_components/datatables.net-bs/css/responsive.bootstrap.min.css"> <!-- ARCHIVO INFALTABLE PARA DATATABLES RESPONSIVE -->
 
+  <!-- Sweet Alert 2 -->
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.3/dist/sweetalert2.min.css" rel="stylesheet">
+
   <!-- =====================================================================================================
   ---------------------------------- PLUGINS DE JAVASCRIPT -------------------------------------------------
   ========================================================================================================== -->
@@ -69,6 +72,9 @@ session_start();
   <script src="vistas/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
   <script src="vistas/bower_components/datatables.net-bs/js/dataTables.responsive.min.js"></script> <!-- ARCHIVO INFALTABLE PARA DATATABLES RESPONSIVE -->
   <script src="vistas/bower_components/datatables.net-bs/js/responsive.bootstrap.min.js"></script> <!-- ARCHIVO INFALTABLE PARA DATATABLES RESPONSIVE -->
+
+  <!-- Sweet Alert 2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.3/dist/sweetalert2.all.min.js"></script>
 
 </head>
 

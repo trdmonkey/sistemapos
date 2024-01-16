@@ -43,7 +43,7 @@
 
             <tr>
 
-              <th>No.</th>
+              <th style="width: 10px;">No.</th>
               <th>Nombre</th>
               <th>Usuario</th>
               <th>Imagen</th>
