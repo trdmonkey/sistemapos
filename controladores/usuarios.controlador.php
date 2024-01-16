@@ -5,7 +5,7 @@ class ControladorUsuarios {
      /*  
         * INGRESO USUARIO
      */
-    public function ctrIngresoUsuario() {
+    static public function ctrIngresoUsuario() {
 
         if(isset($_POST["ingUsuario"])) {
 
@@ -38,6 +38,19 @@ class ControladorUsuarios {
                 }
 
             }
+
+        }
+
+    }
+
+    /*  
+        * REGISTRO DE USUARIO : CREAR
+    */
+    static public function ctrCrearUsuario() {
+
+        if(isset($_POST["nuevoUsuario"])) {
+
+            // if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST['nuevoNombre']))
 
         }
 

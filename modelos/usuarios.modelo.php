@@ -21,5 +21,9 @@ class ModeloUsuarios
         $stmt->execute();
 
         return $stmt->fetch();
+
+        // $stmt -> close();
+
+        $stmt = null;
     }
 }
