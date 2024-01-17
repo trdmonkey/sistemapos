@@ -201,9 +201,9 @@
             <div class="form-group panel panel-primary">
               <div class="panel-heading">Subir Foto</div>
               <div class="panel-body">
-                <input type="file" name="nuevaFoto" id="nuevaFoto" class="form-control">
-                <p class="help-block">Max. 200MB</p>
-                <img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail" width="100px">
+                <input type="file" name="nuevaFoto" class="nuevaFoto" class="form-control">
+                <p class="help-block">Max. 2MB</p>
+                <img src="vistas/img/usuarios/default/anonymous.png" class="img-thumbnail previsualizar" width="100px">
               </div>
             </div>
 
